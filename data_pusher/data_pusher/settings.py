@@ -25,8 +25,11 @@ SECRET_KEY = "django-insecure-i&hw(sbvef&-c-6#ntq#tfbe0sis(42z(^u5p_050-*!r_l#di
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['data_pusher.midhung.in','localhost',
-    "127.0.0.1"]
+ALLOWED_HOSTS = ALLOWED_HOSTS = [
+    "3.111.37.158",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
