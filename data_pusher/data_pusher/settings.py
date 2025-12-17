@@ -113,7 +113,10 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",          # local React
     "http://127.0.0.1:5173",          # sometimes used
-    "https://data-pusher-blond.vercel.app",  # future prod
+    "https://data-pusher-blond.vercel.app",
+    'http://webhook-integration.midhung.in',
+    'https://webhook-integration.midhung.in'
+          # future prod
 ]
 CORS_ALLOW_CREDENTIALS = True
 # Internationalization
