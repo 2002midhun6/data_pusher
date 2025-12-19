@@ -107,6 +107,42 @@
 .list li button:hover {
   background: #c82333;
 }
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.token-box {
+  margin-top: 6px;
+  background: #f6f6f6;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.token-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.token-row code {
+  font-size: 12px;
+  word-break: break-all;
+  background: #eaeaea;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.token-row button {
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.actions button {
+  margin-left: 6px;
+}
 
 /* Empty state */
 .list:empty::after {
